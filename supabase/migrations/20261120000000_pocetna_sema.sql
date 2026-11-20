@@ -1,7 +1,7 @@
 -- HotelFlow: početna šema baze
 -- Sobe, osoblje i uloge, rezervacije, gosti, čišćenje, popravke, predračuni i računi, istorija promena.
 
-create extension if not exists btree_gist;
+create extension if not exists btree_gist with schema extensions;
 
 -- ─────────────────────────────────────────────
 -- Uloge i osoblje
